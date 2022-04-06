@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: steelblue;
+}
+
+@media screen and (min-width: 800px) {
+    #meni {
+        width: 100%;
+        border: 1px solid black;
+        height: 95px;
+    }
+    #linkovi {
+        /* border: 2px solid black; */
+        margin-top: 65px;
+        margin-left: 15px;
+    }
+
+    ul, li {
+        overflow: hidden;
+        width: 99%;
+        list-style: none;
+        display: inline;
+    }
+
+    #vjezbelnk, #grupelnk {
+        font-size: large;
+        padding-left: 15px;
+    }
+    #sadrzaj {
+        width: 100%;
+    }
+    #odabirVjezbe {
+        width: 35%;
+        height: 100%;
+        background-color:lightblue;
+        float: left;
+    }
+    #grafovi1 {
+        width: 32%;
+        float: right;
+    }
+    #grafovi2 {
+        width: 32%;
+        float: right;
+
+    }
+    #odabirVjezbe > input[type="button"] {  
+        width: 98%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: large;
+        margin-top: 10px;
+        background-color: lightgray;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .vb {
+        width: 98%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: large;
+        margin-top: 10px;
+        background-color: lightgray;
+        margin-left: 5px;
+        margin-right: 5px;
+        display: block;
+    }
+    .z {
+        width: auto;
+        padding: 10px;
+        padding-left: 2px;
+        padding-right: 2px;
+        font-size:small;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        margin-left: 4px;
+        background-color: lightsteelblue;
+    }
+    .v {
+        background-color: cornflowerblue;
+        width: 98%;
+        margin-left: 5px;
+        margin-right: 5px;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    #meni {
+        width: 100%;
+        border: 1px solid black;
+        height: 95px;
+    }
+    #linkovi {
+        /* border: 2px solid black; */
+        margin-top: 65px;
+        margin-left: 15px;
+    }
+
+    ul, li {
+        overflow: hidden;
+        width: 99%;
+        list-style: none;
+        display: inline;
+    }
+
+    #vjezbelnk, #grupelnk {
+        font-size: large;
+        padding-left: 15px;
+    }
+    #sadrzaj {
+        width: 100%;
+    }
+    #odabirVjezbe {
+        width: 100%;
+        background-color:lightblue;
+    }
+    #grafovi1 {
+        width: 100%;
+    }
+    #grafovi2 {
+        width: 100%;
+
+    }
+    #odabirVjezbe > input[type="button"] {  
+        width: 98%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: large;
+        margin-top: 10px;
+        background-color: lightgray;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .z {
+        width: auto;
+        padding: 10px;
+        padding-left: 2px;
+        padding-right: 2px;
+        font-size:small;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        margin-left: 4px;
+        background-color: lightsteelblue;
+    }
+    .v {
+        background-color: cornflowerblue;
+        width: 98%;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .vb {
+        width: 98%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: large;
+        margin-top: 10px;
+        background-color: lightgray;
+        margin-left: 5px;
+        margin-right: 5px;
+        display: block;
+    }
+}

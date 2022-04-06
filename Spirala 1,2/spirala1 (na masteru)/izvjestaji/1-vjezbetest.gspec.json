@@ -1,0 +1,236 @@
+{
+  "testId" : "1-vjezbetest.gspec",
+  "name" : "Vjezbetest.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  Vjezbetest.gspec --url http://localhost/proba.html --size 1024x768 --htmlreport izvjestaji",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: Vjezbetest.gspec included tags: ",
+          "status" : "info",
+          "time" : 1636661612197,
+          "sections" : [ {
+            "name" : "Meni section",
+            "place" : {
+              "filePath" : "Vjezbetest.gspec",
+              "lineNumber" : 9
+            },
+            "objects" : [ {
+              "name" : "meni",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Vjezbetest.gspec",
+                  "lineNumber" : 11
+                },
+                "name" : "inside okvir",
+                "meta" : [ ],
+                "highlight" : [ "meni", "okvir" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Vjezbetest.gspec",
+                  "lineNumber" : 12
+                },
+                "name" : "above glavni 0px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "meni",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "glavni",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "meni", "glavni" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Vjezbetest.gspec",
+                  "lineNumber" : 13
+                },
+                "name" : "above desno 0px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "meni",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "desno",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "meni", "desno" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Vjezbetest.gspec",
+                  "lineNumber" : 14
+                },
+                "name" : "below zaglavlje 0px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "meni",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "zaglavlje",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "meni", "zaglavlje" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Main section",
+            "place" : {
+              "filePath" : "Vjezbetest.gspec",
+              "lineNumber" : 15
+            },
+            "objects" : [ {
+              "name" : "glavni",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Vjezbetest.gspec",
+                  "lineNumber" : 17
+                },
+                "name" : "inside okvir",
+                "meta" : [ ],
+                "highlight" : [ "glavni", "okvir" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Vjezbetest.gspec",
+                  "lineNumber" : 18
+                },
+                "name" : "left-of desno 0px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "glavni",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "desno",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "glavni", "desno" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Vjezbetest.gspec",
+                  "lineNumber" : 19
+                },
+                "name" : "above podnozje 0px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "glavni",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "podnozje",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "glavni", "podnozje" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Vjezbetest.gspec",
+                  "lineNumber" : 20
+                },
+                "name" : "below meni 0px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "glavni",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "meni",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "glavni", "meni" ]
+              } ]
+            }, {
+              "name" : "desno",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Vjezbetest.gspec",
+                  "lineNumber" : 23
+                },
+                "name" : "inside okvir",
+                "meta" : [ ],
+                "highlight" : [ "desno", "okvir" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "Vjezbetest.gspec",
+                  "lineNumber" : 24
+                },
+                "name" : "right-of glavni 0px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "desno",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "glavni",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "desno", "glavni" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "meni" : {
+              "area" : [ 0, 72, 1600, 28 ]
+            },
+            "podnozje" : {
+              "area" : [ 0, 323, 1600, 50 ]
+            },
+            "desno" : {
+              "area" : [ 1228, 100, 372, 175 ]
+            },
+            "glavni" : {
+              "area" : [ 0, 100, 1228, 223 ]
+            },
+            "zaglavlje" : {
+              "area" : [ 0, 0, 1600, 72 ]
+            },
+            "okvir" : {
+              "area" : [ 0, 0, 1600, 372 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1636661610734,
+        "type" : "node"
+      } ],
+      "time" : 1636661606421,
+      "type" : "node"
+    } ]
+  }
+}

@@ -1,0 +1,64 @@
+@objects
+	body body
+    forma #forma
+    url #url
+    turl #turl
+    god #god
+    tgod #tgod
+    bra #bra
+    tbra #tbra
+    btn #btn
+
+= Width section =
+	url:
+		width 33 to 35 % of body/width
+	god:
+		width 33 to 35 % of body/width
+	btn:
+		width 33 to 35 % of body/width
+
+= Inside section =
+	url:
+		inside forma
+	turl:
+		inside forma
+	btn:
+		inside forma
+	god:
+		inside forma                
+	bra:
+		inside forma
+	tbra:
+		inside forma                
+
+= Above section =
+	url:
+		above turl
+	bra:
+		above tbra
+	tbra:
+		above btn
+
+= Below section =
+	turl:
+		below url
+	god:
+		below turl
+	btn:
+		below tbra
+= Visible section =
+	forma:
+		visible
+	btn:
+		visible
+	tbra:
+		visible
+	tgod:
+		visible
+	turl:
+		visible
+
+= Inside partly section =
+	url:
+		inside partly body ~328px left, ~10px top
+

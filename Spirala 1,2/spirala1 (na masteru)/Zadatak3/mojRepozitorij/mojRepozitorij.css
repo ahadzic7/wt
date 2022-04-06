@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightsteelblue;
+}
+
+#forma {
+    height: auto;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+    background-color: lightcyan;
+}
+
+input, label {
+    float: left;
+    width: 98%;
+    margin: 5px;
+    text-align: center;
+}
+
+input[type="button"] {
+    margin-top: 15px;
+}
+
+
+@media screen and (min-width: 800px) {
+    #forma {
+        width: 35%;
+        border: 5px solid black;
+        margin-top: 5%;
+    }
+
+    input, label {
+        font-size: xxx-large;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    #forma {
+        width: 90%;
+        border: 2px solid black;
+        margin-top: 5%;
+    }
+
+    input, label {
+        font-size: x-large;
+    }
+}

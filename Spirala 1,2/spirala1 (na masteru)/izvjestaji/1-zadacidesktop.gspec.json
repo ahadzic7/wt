@@ -1,0 +1,462 @@
+{
+  "testId" : "1-zadacidesktop.gspec",
+  "name" : "zadaciDesktop.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  zadaciDesktop.gspec --url http://localhost/zadaci.html --size 1024x768 --htmlreport izvjestaji",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: zadaciDesktop.gspec included tags: ",
+          "status" : "info",
+          "time" : 1636664758943,
+          "sections" : [ {
+            "name" : "Width section",
+            "place" : {
+              "filePath" : "zadaciDesktop.gspec",
+              "lineNumber" : 15
+            },
+            "objects" : [ {
+              "name" : "forma1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciDesktop.gspec",
+                  "lineNumber" : 17
+                },
+                "name" : "width 48 to 52 % of body/width",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "forma1",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "forma1",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "48 to 52% [477 to 517px]",
+                  "realDistance" : "50% [501px]"
+                } ],
+                "highlight" : [ "forma1" ]
+              } ]
+            }, {
+              "name" : "forma2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciDesktop.gspec",
+                  "lineNumber" : 19
+                },
+                "name" : "width 48 to 52 % of body/width",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "forma2",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "forma2",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "48 to 52% [477 to 517px]",
+                  "realDistance" : "50% [501px]"
+                } ],
+                "highlight" : [ "forma2" ]
+              } ]
+            }, {
+              "name" : "btn1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciDesktop.gspec",
+                  "lineNumber" : 21
+                },
+                "name" : "width 5 to 15 % of body/width",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "btn1",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "btn1",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "5 to 15% [49 to 149px]",
+                  "realDistance" : "9% [97px]"
+                } ],
+                "highlight" : [ "btn1" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Inside section",
+            "place" : {
+              "filePath" : "zadaciDesktop.gspec",
+              "lineNumber" : 23
+            },
+            "objects" : [ {
+              "name" : "vjezbe",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciDesktop.gspec",
+                  "lineNumber" : 25
+                },
+                "name" : "inside forma1",
+                "meta" : [ ],
+                "highlight" : [ "vjezbe", "forma1" ]
+              } ]
+            }, {
+              "name" : "zadaci",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciDesktop.gspec",
+                  "lineNumber" : 27
+                },
+                "name" : "inside forma1",
+                "meta" : [ ],
+                "highlight" : [ "zadaci", "forma1" ]
+              } ]
+            }, {
+              "name" : "btn2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciDesktop.gspec",
+                  "lineNumber" : 29
+                },
+                "name" : "inside forma2",
+                "meta" : [ ],
+                "highlight" : [ "btn2", "forma2" ]
+              } ]
+            }, {
+              "name" : "verzije",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciDesktop.gspec",
+                  "lineNumber" : 31
+                },
+                "name" : "inside forma1",
+                "meta" : [ ],
+                "highlight" : [ "verzije", "forma1" ]
+              } ]
+            }, {
+              "name" : "greske",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciDesktop.gspec",
+                  "lineNumber" : 33
+                },
+                "name" : "inside forma2",
+                "meta" : [ ],
+                "highlight" : [ "greske", "forma2" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Above section",
+            "place" : {
+              "filePath" : "zadaciDesktop.gspec",
+              "lineNumber" : 35
+            },
+            "objects" : [ {
+              "name" : "h1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciDesktop.gspec",
+                  "lineNumber" : 37
+                },
+                "name" : "above forma1",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "h1",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "forma1",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "15px"
+                } ],
+                "highlight" : [ "h1", "forma1" ]
+              } ]
+            }, {
+              "name" : "forma1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciDesktop.gspec",
+                  "lineNumber" : 39
+                },
+                "name" : "above forma2",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "forma1",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "forma2",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "15px"
+                } ],
+                "highlight" : [ "forma1", "forma2" ]
+              } ]
+            }, {
+              "name" : "verzije",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciDesktop.gspec",
+                  "lineNumber" : 41
+                },
+                "name" : "above komentar",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "verzije",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "komentar",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "48px"
+                } ],
+                "highlight" : [ "verzije", "komentar" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Below section",
+            "place" : {
+              "filePath" : "zadaciDesktop.gspec",
+              "lineNumber" : 43
+            },
+            "objects" : [ {
+              "name" : "forma1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciDesktop.gspec",
+                  "lineNumber" : 45
+                },
+                "name" : "below h1",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "forma1",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "h1",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "15px"
+                } ],
+                "highlight" : [ "forma1", "h1" ]
+              } ]
+            }, {
+              "name" : "forma2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciDesktop.gspec",
+                  "lineNumber" : 47
+                },
+                "name" : "below forma1",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "forma2",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "forma1",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "15px"
+                } ],
+                "highlight" : [ "forma2", "forma1" ]
+              } ]
+            }, {
+              "name" : "komentar",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciDesktop.gspec",
+                  "lineNumber" : 49
+                },
+                "name" : "below verzije",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "komentar",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "verzije",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "48px"
+                } ],
+                "highlight" : [ "komentar", "verzije" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Visible section",
+            "place" : {
+              "filePath" : "zadaciDesktop.gspec",
+              "lineNumber" : 50
+            },
+            "objects" : [ {
+              "name" : "forma1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciDesktop.gspec",
+                  "lineNumber" : 52
+                },
+                "name" : "visible",
+                "highlight" : [ "forma1" ]
+              } ]
+            }, {
+              "name" : "forma2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciDesktop.gspec",
+                  "lineNumber" : 54
+                },
+                "name" : "visible",
+                "highlight" : [ "forma2" ]
+              } ]
+            }, {
+              "name" : "h1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciDesktop.gspec",
+                  "lineNumber" : 56
+                },
+                "name" : "visible",
+                "highlight" : [ "h1" ]
+              } ]
+            }, {
+              "name" : "error",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciDesktop.gspec",
+                  "lineNumber" : 58
+                },
+                "name" : "visible",
+                "highlight" : [ "error" ]
+              } ]
+            }, {
+              "name" : "greske",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciDesktop.gspec",
+                  "lineNumber" : 60
+                },
+                "name" : "visible",
+                "highlight" : [ "greske" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Inside partly section",
+            "place" : {
+              "filePath" : "zadaciDesktop.gspec",
+              "lineNumber" : 62
+            },
+            "objects" : [ {
+              "name" : "btn2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciDesktop.gspec",
+                  "lineNumber" : 64
+                },
+                "name" : "inside partly body ~376px left, ~911px top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "btn2",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "body",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "374 to 378px",
+                  "realDistance" : "376px"
+                }, {
+                  "from" : {
+                    "object" : "btn2",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "body",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "909 to 913px",
+                  "realDistance" : "911px"
+                } ],
+                "highlight" : [ "btn2", "body" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "verzije" : {
+              "area" : [ 548, 196, 99, 26 ]
+            },
+            "komentar" : {
+              "area" : [ 248, 270, 661, 246 ]
+            },
+            "btn2" : {
+              "area" : [ 376, 911, 285, 37 ]
+            },
+            "h1" : {
+              "area" : [ 0, 0, 995, 77 ]
+            },
+            "forma2" : {
+              "area" : [ 246, 581, 501, 374 ]
+            },
+            "greske" : {
+              "area" : [ 531, 880, 20, 20 ]
+            },
+            "forma1" : {
+              "area" : [ 246, 92, 501, 474 ]
+            },
+            "btn1" : {
+              "area" : [ 563, 522, 97, 37 ]
+            },
+            "error" : {
+              "area" : [ 248, 621, 661, 246 ]
+            },
+            "body" : {
+              "area" : [ 0, 0, 995, 955 ]
+            },
+            "vjezbe" : {
+              "area" : [ 546, 104, 99, 26 ]
+            },
+            "zadaci" : {
+              "area" : [ 553, 150, 99, 26 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1636664756826,
+        "type" : "node"
+      } ],
+      "time" : 1636664752164,
+      "type" : "node"
+    } ]
+  }
+}

@@ -1,0 +1,65 @@
+@objects
+	body body
+    forma2 #forma2
+    forma1 #forma1
+    vjezbe #vjezbe
+    zadaci #zadaci
+    verzije #verzije
+    komentar #komentar
+    error #error
+    greske #greske
+    btn1 #btn1
+    btn2 #btn2
+    h1 h1
+
+= Width section =
+	forma1:
+		width 48 to 52 % of body/width
+	forma2:
+		width 48 to 52 % of body/width
+	btn1:
+		width 5 to 15 % of body/width
+
+= Inside section =
+	vjezbe:
+		inside forma1
+	zadaci:
+		inside forma1
+	btn2:
+		inside forma2               
+	verzije:
+		inside forma1
+	greske:
+		inside forma2               
+
+= Above section =
+	h1:
+		above forma1
+	forma1:
+		above forma2
+	verzije:
+		above komentar
+
+= Below section =
+	forma1:
+		below h1
+	forma2:
+		below forma1
+	komentar:
+		below verzije
+= Visible section =
+	forma1:
+		visible
+	forma2:
+		visible
+	h1:
+		visible
+	error:
+		visible
+	greske:
+		visible
+
+= Inside partly section =
+	btn2:
+		inside partly body ~376px left, ~911px top
+

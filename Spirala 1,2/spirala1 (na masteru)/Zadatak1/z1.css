@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: cornflowerblue;
+}
+
+@media screen and (min-width: 800px) {
+    #meni {
+        width: 100%;
+        /* border: 2px solid black; */
+        height: 95px;
+    }
+    #linkovi {
+        /* border: 2px solid black; */
+        margin-top: 65px;
+        margin-left: 15px;
+    }
+    ul, li {
+        overflow: hidden;
+        width: 99%;
+        list-style: none;
+        display: inline;
+    }
+    #vjezbelnk, #grupelnk {
+        font-size: large;
+        padding-left: 15px;
+    }
+    #gs {
+        width: 100%;
+        /* border: 2px solid black; */
+    }
+    #studenti {
+        width: 59%;
+        /* border: 2px solid black; */
+        float: left;
+        margin-top: 5px;
+    }
+    #grupe {
+        width: 40%;
+        /* border: 2px solid black; */
+        float: right;
+        margin-top: 10px;
+    }
+    .az {
+        visibility: visible;
+    }
+    .column {
+        float: left;
+        border-radius: 15px;
+        width: 23%;
+        padding: 0px;
+        margin: 10px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .column>h2 {
+        color: black;
+    }
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    table, tr, td {
+        border: 2px solid black;
+        width: 95%;
+        height: 100%;
+        text-align: center;
+        border-collapse: collapse;
+    }
+    tr:nth-child(1) {
+        background-color: rgb(97, 96, 96);
+    }
+    tr:nth-child(2n + 3) {
+        background-color: gray;
+    }
+    tr:nth-child(2n) {
+        background-color: rgb(165, 164, 164);
+    }
+    td {
+        height: 25px;
+        vertical-align: middle;
+    }
+    th, td {
+        padding: 15px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 799px) {
+    #meni {
+        width: 100%;
+        /* border: 2px solid black; */
+        height: 95px;
+    }
+    #linkovi {
+        /* border: 2px solid black; */
+        margin-top: 65px;
+        margin-left: 15px;
+        width: 100%;
+    }
+    #vjezbelnk, #grupelnk {
+        padding-left: 15px;
+        width: 100%;
+    }
+    ul, li {
+        width: 100%;
+        list-style: none;
+        display: inline;
+    }
+    #gs {
+        width: 100%;
+        /* border: 2px solid black; */
+    }
+    #studenti {
+        width: 100%;
+        /* border: 2px solid black; */
+        margin-top: 5px;
+        clear: both;
+        float: none;
+    }
+    #grupe {
+        width: 100%;
+        /* border: 2px solid black; */
+        margin-top: 10px;
+        float: none;
+        clear: both
+    }
+    .az {
+        visibility: visible;
+    }
+    .column {
+        float: left;
+        border-radius: 15px;
+        width: 100%;
+        padding: 0px;
+        margin: 10px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .column>h2 {
+        color: black;
+    }
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    table, tr, td {
+        border: 2px solid black;
+        width: 95%;
+        height: 100%;
+        text-align: center;
+        border-collapse: collapse;
+    }
+    tr:nth-child(1) {
+        background-color: rgb(97, 96, 96);
+    }
+    tr:nth-child(2n + 3) {
+        background-color: gray;
+    }
+    tr:nth-child(2n) {
+        background-color: rgb(165, 164, 164);
+    }
+    td {
+        height: 25px;
+        vertical-align: middle;
+    }
+    th, td {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    #meni {
+        width: 100%;
+        /* border: 2px solid black; */
+        height: 100px;
+    }
+    #vjezbelnk, #grupelnk, #linkovi {
+        width: 100%;
+        display: block;
+    }
+    ul, li {
+        text-align: center;
+        width: 100%;
+        list-style: none;
+    }
+    #gs {
+        width: 100%;
+        /* border: 2px solid black; */
+    }
+    #studenti {
+        width: 100%;
+        /* border: 2px solid black; */
+        margin-top: 5px;
+    }
+    #grupe {
+        width: 100%;
+        /* border: 2px solid black; */
+        margin-top: 10px;
+    }
+
+    tr th:nth-child(2), th:nth-child(3){
+        display:none;
+    }
+    
+    .column {
+        float: left;
+        border-radius: 15px;
+        width: 100%;
+        padding: 0px;
+        margin: 10px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .column>h2 {
+        color: black;
+    }
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    table, tr, td {
+        border: 2px solid black;
+        width: 95%;
+        height: 100%;
+        text-align: center;
+        border-collapse: collapse;
+    }
+    tr:nth-child(1) {
+        background-color: rgb(97, 96, 96);
+    }
+    tr:nth-child(2n + 3) {
+        background-color: gray;
+    }
+    tr:nth-child(2n) {
+        background-color: rgb(165, 164, 164);
+    }
+    td {
+        height: 25px;
+        vertical-align: middle;
+    }
+    th, td {
+        padding: 15px;
+    }
+}

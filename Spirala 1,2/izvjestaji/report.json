@@ -1,0 +1,17 @@
+{
+  "tests" : [ {
+    "name" : "z1Tablet.gspec",
+    "startedAt" : 1636841728955,
+    "endedAt" : 1636841737723,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 27,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 27
+    },
+    "testId" : "1-z1tablet.gspec",
+    "duration" : 8768,
+    "failed" : false
+  } ]
+}

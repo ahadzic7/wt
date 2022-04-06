@@ -1,0 +1,469 @@
+{
+  "testId" : "1-mojrepodesktop.gspec",
+  "name" : "mojRepoDesktop.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  mojRepoDesktop.gspec --url http://localhost/mojRepozitorij.html --size 1024x768 --htmlreport izvjestaji",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: mojRepoDesktop.gspec included tags: ",
+          "status" : "error",
+          "time" : 1636663381816,
+          "sections" : [ {
+            "name" : "Width section",
+            "place" : {
+              "filePath" : "mojRepoDesktop.gspec",
+              "lineNumber" : 12
+            },
+            "objects" : [ {
+              "name" : "url",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "mojRepoDesktop.gspec",
+                  "lineNumber" : 14
+                },
+                "name" : "width 98 to 100 % of body/width",
+                "errors" : [ "\"url\" width is 34% [341px] which is not in range of 98 to 100% [975 to 995px]" ],
+                "meta" : [ {
+                  "from" : {
+                    "object" : "url",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "url",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "98 to 100% [975 to 995px]",
+                  "realDistance" : "34% [341px]"
+                } ],
+                "highlight" : [ "url" ]
+              } ]
+            }, {
+              "name" : "god",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "mojRepoDesktop.gspec",
+                  "lineNumber" : 16
+                },
+                "name" : "width 98 to 100 % of body/width",
+                "errors" : [ "\"god\" width is 34% [341px] which is not in range of 98 to 100% [975 to 995px]" ],
+                "meta" : [ {
+                  "from" : {
+                    "object" : "god",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "god",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "98 to 100% [975 to 995px]",
+                  "realDistance" : "34% [341px]"
+                } ],
+                "highlight" : [ "god" ]
+              } ]
+            }, {
+              "name" : "btn",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "mojRepoDesktop.gspec",
+                  "lineNumber" : 18
+                },
+                "name" : "width 98 to 100 % of body/width",
+                "errors" : [ "\"btn\" width is 34% [341px] which is not in range of 98 to 100% [975 to 995px]" ],
+                "meta" : [ {
+                  "from" : {
+                    "object" : "btn",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "btn",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "98 to 100% [975 to 995px]",
+                  "realDistance" : "34% [341px]"
+                } ],
+                "highlight" : [ "btn" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Inside section",
+            "place" : {
+              "filePath" : "mojRepoDesktop.gspec",
+              "lineNumber" : 20
+            },
+            "objects" : [ {
+              "name" : "url",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepoDesktop.gspec",
+                  "lineNumber" : 22
+                },
+                "name" : "inside forma",
+                "meta" : [ ],
+                "highlight" : [ "url", "forma" ]
+              } ]
+            }, {
+              "name" : "turl",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepoDesktop.gspec",
+                  "lineNumber" : 24
+                },
+                "name" : "inside forma",
+                "meta" : [ ],
+                "highlight" : [ "turl", "forma" ]
+              } ]
+            }, {
+              "name" : "btn",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepoDesktop.gspec",
+                  "lineNumber" : 26
+                },
+                "name" : "inside forma",
+                "meta" : [ ],
+                "highlight" : [ "btn", "forma" ]
+              } ]
+            }, {
+              "name" : "god",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepoDesktop.gspec",
+                  "lineNumber" : 28
+                },
+                "name" : "inside forma",
+                "meta" : [ ],
+                "highlight" : [ "god", "forma" ]
+              } ]
+            }, {
+              "name" : "bra",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepoDesktop.gspec",
+                  "lineNumber" : 30
+                },
+                "name" : "inside forma",
+                "meta" : [ ],
+                "highlight" : [ "bra", "forma" ]
+              } ]
+            }, {
+              "name" : "tbra",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepoDesktop.gspec",
+                  "lineNumber" : 32
+                },
+                "name" : "inside forma",
+                "meta" : [ ],
+                "highlight" : [ "tbra", "forma" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Above section",
+            "place" : {
+              "filePath" : "mojRepoDesktop.gspec",
+              "lineNumber" : 34
+            },
+            "objects" : [ {
+              "name" : "url",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepoDesktop.gspec",
+                  "lineNumber" : 36
+                },
+                "name" : "above turl",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "url",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "turl",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "10px"
+                } ],
+                "highlight" : [ "url", "turl" ]
+              } ]
+            }, {
+              "name" : "bra",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepoDesktop.gspec",
+                  "lineNumber" : 38
+                },
+                "name" : "above tbra",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "bra",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "tbra",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "10px"
+                } ],
+                "highlight" : [ "bra", "tbra" ]
+              } ]
+            }, {
+              "name" : "tbra",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepoDesktop.gspec",
+                  "lineNumber" : 40
+                },
+                "name" : "above btn",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "tbra",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "btn",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "20px"
+                } ],
+                "highlight" : [ "tbra", "btn" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Below section",
+            "place" : {
+              "filePath" : "mojRepoDesktop.gspec",
+              "lineNumber" : 42
+            },
+            "objects" : [ {
+              "name" : "turl",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepoDesktop.gspec",
+                  "lineNumber" : 44
+                },
+                "name" : "below url",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "turl",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "url",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "10px"
+                } ],
+                "highlight" : [ "turl", "url" ]
+              } ]
+            }, {
+              "name" : "god",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepoDesktop.gspec",
+                  "lineNumber" : 46
+                },
+                "name" : "below turl",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "god",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "turl",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "10px"
+                } ],
+                "highlight" : [ "god", "turl" ]
+              } ]
+            }, {
+              "name" : "btn",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepoDesktop.gspec",
+                  "lineNumber" : 48
+                },
+                "name" : "below tbra",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "btn",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "tbra",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "20px"
+                } ],
+                "highlight" : [ "btn", "tbra" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Visible section",
+            "place" : {
+              "filePath" : "mojRepoDesktop.gspec",
+              "lineNumber" : 49
+            },
+            "objects" : [ {
+              "name" : "forma",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepoDesktop.gspec",
+                  "lineNumber" : 51
+                },
+                "name" : "visible",
+                "highlight" : [ "forma" ]
+              } ]
+            }, {
+              "name" : "btn",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepoDesktop.gspec",
+                  "lineNumber" : 53
+                },
+                "name" : "visible",
+                "highlight" : [ "btn" ]
+              } ]
+            }, {
+              "name" : "tbra",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepoDesktop.gspec",
+                  "lineNumber" : 55
+                },
+                "name" : "visible",
+                "highlight" : [ "tbra" ]
+              } ]
+            }, {
+              "name" : "tgod",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepoDesktop.gspec",
+                  "lineNumber" : 57
+                },
+                "name" : "visible",
+                "highlight" : [ "tgod" ]
+              } ]
+            }, {
+              "name" : "turl",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepoDesktop.gspec",
+                  "lineNumber" : 59
+                },
+                "name" : "visible",
+                "highlight" : [ "turl" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Inside partly section",
+            "place" : {
+              "filePath" : "mojRepoDesktop.gspec",
+              "lineNumber" : 61
+            },
+            "objects" : [ {
+              "name" : "url",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "mojRepoDesktop.gspec",
+                  "lineNumber" : 63
+                },
+                "name" : "inside partly body ~0px left, ~0px top",
+                "errors" : [ "\"url\" is 328px left which is not in range of -2 to 2px and 10px top which is not in range of -2 to 2px" ],
+                "meta" : [ {
+                  "from" : {
+                    "object" : "url",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "body",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "-2 to 2px",
+                  "realDistance" : "328px"
+                }, {
+                  "from" : {
+                    "object" : "url",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "body",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "-2 to 2px",
+                  "realDistance" : "10px"
+                } ],
+                "highlight" : [ "url", "body" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "bra" : {
+              "area" : [ 328, 447, 341, 112 ]
+            },
+            "tbra" : {
+              "area" : [ 328, 569, 345, 62 ]
+            },
+            "forma" : {
+              "area" : [ 318, 49, 358, 674 ]
+            },
+            "body" : {
+              "area" : [ 0, 49, 995, 674 ]
+            },
+            "god" : {
+              "area" : [ 328, 253, 341, 112 ]
+            },
+            "btn" : {
+              "area" : [ 328, 651, 341, 62 ]
+            },
+            "turl" : {
+              "area" : [ 328, 181, 345, 62 ]
+            },
+            "url" : {
+              "area" : [ 328, 59, 341, 112 ]
+            },
+            "tgod" : {
+              "area" : [ 328, 375, 345, 62 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1636663379782,
+        "type" : "node"
+      } ],
+      "time" : 1636663374686,
+      "type" : "node"
+    } ]
+  }
+}

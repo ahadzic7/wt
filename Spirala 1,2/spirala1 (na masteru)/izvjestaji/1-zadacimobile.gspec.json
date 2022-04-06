@@ -1,0 +1,462 @@
+{
+  "testId" : "1-zadacimobile.gspec",
+  "name" : "zadaciMobile.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  zadaciMobile.gspec --url http://localhost/zadaci.html --size 124x768 --htmlreport izvjestaji",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: zadaciMobile.gspec included tags: ",
+          "status" : "info",
+          "time" : 1636665287249,
+          "sections" : [ {
+            "name" : "Width section",
+            "place" : {
+              "filePath" : "zadaciMobile.gspec",
+              "lineNumber" : 15
+            },
+            "objects" : [ {
+              "name" : "forma1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciMobile.gspec",
+                  "lineNumber" : 17
+                },
+                "name" : "width 93 to 97 % of body/width",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "forma1",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "forma1",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "93 to 97% [406 to 423px]",
+                  "realDistance" : "95% [419px]"
+                } ],
+                "highlight" : [ "forma1" ]
+              } ]
+            }, {
+              "name" : "forma2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciMobile.gspec",
+                  "lineNumber" : 19
+                },
+                "name" : "width 93 to 97 % of body/width",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "forma2",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "forma2",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "93 to 97% [406 to 423px]",
+                  "realDistance" : "95% [419px]"
+                } ],
+                "highlight" : [ "forma2" ]
+              } ]
+            }, {
+              "name" : "btn1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciMobile.gspec",
+                  "lineNumber" : 21
+                },
+                "name" : "width 20 to 25 % of body/width",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "btn1",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "btn1",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "20 to 25% [87 to 109px]",
+                  "realDistance" : "22% [97px]"
+                } ],
+                "highlight" : [ "btn1" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Inside section",
+            "place" : {
+              "filePath" : "zadaciMobile.gspec",
+              "lineNumber" : 23
+            },
+            "objects" : [ {
+              "name" : "vjezbe",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciMobile.gspec",
+                  "lineNumber" : 25
+                },
+                "name" : "inside forma1",
+                "meta" : [ ],
+                "highlight" : [ "vjezbe", "forma1" ]
+              } ]
+            }, {
+              "name" : "zadaci",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciMobile.gspec",
+                  "lineNumber" : 27
+                },
+                "name" : "inside forma1",
+                "meta" : [ ],
+                "highlight" : [ "zadaci", "forma1" ]
+              } ]
+            }, {
+              "name" : "btn2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciMobile.gspec",
+                  "lineNumber" : 29
+                },
+                "name" : "inside forma2",
+                "meta" : [ ],
+                "highlight" : [ "btn2", "forma2" ]
+              } ]
+            }, {
+              "name" : "verzije",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciMobile.gspec",
+                  "lineNumber" : 31
+                },
+                "name" : "inside forma1",
+                "meta" : [ ],
+                "highlight" : [ "verzije", "forma1" ]
+              } ]
+            }, {
+              "name" : "greske",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciMobile.gspec",
+                  "lineNumber" : 33
+                },
+                "name" : "inside forma2",
+                "meta" : [ ],
+                "highlight" : [ "greske", "forma2" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Above section",
+            "place" : {
+              "filePath" : "zadaciMobile.gspec",
+              "lineNumber" : 35
+            },
+            "objects" : [ {
+              "name" : "h1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciMobile.gspec",
+                  "lineNumber" : 37
+                },
+                "name" : "above forma1",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "h1",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "forma1",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "10px"
+                } ],
+                "highlight" : [ "h1", "forma1" ]
+              } ]
+            }, {
+              "name" : "forma1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciMobile.gspec",
+                  "lineNumber" : 39
+                },
+                "name" : "above forma2",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "forma1",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "forma2",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "10px"
+                } ],
+                "highlight" : [ "forma1", "forma2" ]
+              } ]
+            }, {
+              "name" : "verzije",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciMobile.gspec",
+                  "lineNumber" : 41
+                },
+                "name" : "above komentar",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "verzije",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "komentar",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "33px"
+                } ],
+                "highlight" : [ "verzije", "komentar" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Below section",
+            "place" : {
+              "filePath" : "zadaciMobile.gspec",
+              "lineNumber" : 43
+            },
+            "objects" : [ {
+              "name" : "forma1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciMobile.gspec",
+                  "lineNumber" : 45
+                },
+                "name" : "below h1",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "forma1",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "h1",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "10px"
+                } ],
+                "highlight" : [ "forma1", "h1" ]
+              } ]
+            }, {
+              "name" : "forma2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciMobile.gspec",
+                  "lineNumber" : 47
+                },
+                "name" : "below forma1",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "forma2",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "forma1",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "10px"
+                } ],
+                "highlight" : [ "forma2", "forma1" ]
+              } ]
+            }, {
+              "name" : "komentar",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciMobile.gspec",
+                  "lineNumber" : 49
+                },
+                "name" : "below verzije",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "komentar",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "verzije",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "33px"
+                } ],
+                "highlight" : [ "komentar", "verzije" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Visible section",
+            "place" : {
+              "filePath" : "zadaciMobile.gspec",
+              "lineNumber" : 50
+            },
+            "objects" : [ {
+              "name" : "forma1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciMobile.gspec",
+                  "lineNumber" : 52
+                },
+                "name" : "visible",
+                "highlight" : [ "forma1" ]
+              } ]
+            }, {
+              "name" : "forma2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciMobile.gspec",
+                  "lineNumber" : 54
+                },
+                "name" : "visible",
+                "highlight" : [ "forma2" ]
+              } ]
+            }, {
+              "name" : "h1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciMobile.gspec",
+                  "lineNumber" : 56
+                },
+                "name" : "visible",
+                "highlight" : [ "h1" ]
+              } ]
+            }, {
+              "name" : "error",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciMobile.gspec",
+                  "lineNumber" : 58
+                },
+                "name" : "visible",
+                "highlight" : [ "error" ]
+              } ]
+            }, {
+              "name" : "greske",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciMobile.gspec",
+                  "lineNumber" : 60
+                },
+                "name" : "visible",
+                "highlight" : [ "greske" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Inside partly section",
+            "place" : {
+              "filePath" : "zadaciMobile.gspec",
+              "lineNumber" : 62
+            },
+            "objects" : [ {
+              "name" : "btn2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciMobile.gspec",
+                  "lineNumber" : 64
+                },
+                "name" : "inside partly body ~127px left, ~803px top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "btn2",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "body",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "125 to 129px",
+                  "realDistance" : "127px"
+                }, {
+                  "from" : {
+                    "object" : "btn2",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "body",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "801 to 805px",
+                  "realDistance" : "803px"
+                } ],
+                "highlight" : [ "btn2", "body" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "verzije" : {
+              "area" : [ 252, 131, 83, 23 ]
+            },
+            "komentar" : {
+              "area" : [ 10, 187, 661, 246 ]
+            },
+            "btn2" : {
+              "area" : [ 127, 803, 285, 37 ]
+            },
+            "h1" : {
+              "area" : [ 0, 0, 437, 48 ]
+            },
+            "forma2" : {
+              "area" : [ 8, 493, 419, 354 ]
+            },
+            "greske" : {
+              "area" : [ 266, 774, 20, 20 ]
+            },
+            "forma1" : {
+              "area" : [ 8, 58, 419, 425 ]
+            },
+            "btn1" : {
+              "area" : [ 315, 439, 97, 37 ]
+            },
+            "error" : {
+              "area" : [ 10, 523, 661, 246 ]
+            },
+            "body" : {
+              "area" : [ 0, 0, 437, 847 ]
+            },
+            "vjezbe" : {
+              "area" : [ 250, 65, 83, 23 ]
+            },
+            "zadaci" : {
+              "area" : [ 256, 98, 83, 23 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1636665285406,
+        "type" : "node"
+      } ],
+      "time" : 1636665280193,
+      "type" : "node"
+    } ]
+  }
+}

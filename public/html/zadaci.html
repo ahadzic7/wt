@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="bs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/zadaci.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Komentar</h1>
+
+    <div class="f" id="forma1">
+        <label for="vjezba">Odabir vježbe: </label>
+        <select name="Odabir vjezbe" id="vjezbe"></select>
+        <br>
+        <label for="zadatak">Odabir zadatka: </label>
+        <select name="Odabir zadatka" id="zadaci"></select>
+        <br>
+        <label for="verzija">Odabir verzije: </label>
+        <select name="Odabir verzije" id="verzije"></select>
+        <br>
+        <label for="komentar">Komentar: </label>
+        <br>
+        <textarea name="komentar" id="komentar" wrap="hard" cols="80" rows="15"></textarea>
+        <br>
+        <div class="butt">
+            <input id="btn1" type="button" value="POŠALJI">
+        </div>
+    </div>
+    <div class="f" id="forma2">
+        <label for="errors">Errors log: </label>
+        <br>
+        <textarea name="errors_log" id="error" cols="80" rows="15"></textarea>
+        <br>
+        <div class="butt">
+            <label for="greske">Bez grešaka: </label>
+            <input type="checkbox" name="greske" id="greske">
+            <input type="button" id="btn2" value="DODAJ REZULTATE TESTA">
+        </div>
+    </div>
+</body>
+
+</html>

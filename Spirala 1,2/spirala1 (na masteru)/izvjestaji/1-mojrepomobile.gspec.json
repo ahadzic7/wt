@@ -1,0 +1,421 @@
+{
+  "testId" : "1-mojrepomobile.gspec",
+  "name" : "mojRepoMobile.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  mojRepoMobile.gspec --url http://localhost/mojRepozitorij.html --size 799x768 --htmlreport izvjestaji",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: mojRepoMobile.gspec included tags: ",
+          "status" : "info",
+          "time" : 1636664014402,
+          "sections" : [ {
+            "name" : "Width section",
+            "place" : {
+              "filePath" : "mojRepoMobile.gspec",
+              "lineNumber" : 12
+            },
+            "objects" : [ {
+              "name" : "url",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepoMobile.gspec",
+                  "lineNumber" : 14
+                },
+                "name" : "width 86 to 88 % of body/width",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "url",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "url",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "86 to 88% [676 to 692px]",
+                  "realDistance" : "88% [694px]"
+                } ],
+                "highlight" : [ "url" ]
+              } ]
+            }, {
+              "name" : "god",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepoMobile.gspec",
+                  "lineNumber" : 16
+                },
+                "name" : "width 86 to 88 % of body/width",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "god",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "god",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "86 to 88% [676 to 692px]",
+                  "realDistance" : "88% [694px]"
+                } ],
+                "highlight" : [ "god" ]
+              } ]
+            }, {
+              "name" : "btn",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepoMobile.gspec",
+                  "lineNumber" : 18
+                },
+                "name" : "width 86 to 88 % of body/width",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "btn",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "btn",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "86 to 88% [676 to 692px]",
+                  "realDistance" : "88% [694px]"
+                } ],
+                "highlight" : [ "btn" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Inside section",
+            "place" : {
+              "filePath" : "mojRepoMobile.gspec",
+              "lineNumber" : 20
+            },
+            "objects" : [ {
+              "name" : "url",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepoMobile.gspec",
+                  "lineNumber" : 22
+                },
+                "name" : "inside forma",
+                "meta" : [ ],
+                "highlight" : [ "url", "forma" ]
+              } ]
+            }, {
+              "name" : "turl",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepoMobile.gspec",
+                  "lineNumber" : 24
+                },
+                "name" : "inside forma",
+                "meta" : [ ],
+                "highlight" : [ "turl", "forma" ]
+              } ]
+            }, {
+              "name" : "btn",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepoMobile.gspec",
+                  "lineNumber" : 26
+                },
+                "name" : "inside forma",
+                "meta" : [ ],
+                "highlight" : [ "btn", "forma" ]
+              } ]
+            }, {
+              "name" : "god",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepoMobile.gspec",
+                  "lineNumber" : 28
+                },
+                "name" : "inside forma",
+                "meta" : [ ],
+                "highlight" : [ "god", "forma" ]
+              } ]
+            }, {
+              "name" : "bra",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepoMobile.gspec",
+                  "lineNumber" : 30
+                },
+                "name" : "inside forma",
+                "meta" : [ ],
+                "highlight" : [ "bra", "forma" ]
+              } ]
+            }, {
+              "name" : "tbra",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepoMobile.gspec",
+                  "lineNumber" : 32
+                },
+                "name" : "inside forma",
+                "meta" : [ ],
+                "highlight" : [ "tbra", "forma" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Above section",
+            "place" : {
+              "filePath" : "mojRepoMobile.gspec",
+              "lineNumber" : 34
+            },
+            "objects" : [ {
+              "name" : "url",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepoMobile.gspec",
+                  "lineNumber" : 36
+                },
+                "name" : "above turl",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "url",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "turl",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "10px"
+                } ],
+                "highlight" : [ "url", "turl" ]
+              } ]
+            }, {
+              "name" : "bra",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepoMobile.gspec",
+                  "lineNumber" : 38
+                },
+                "name" : "above tbra",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "bra",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "tbra",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "10px"
+                } ],
+                "highlight" : [ "bra", "tbra" ]
+              } ]
+            }, {
+              "name" : "tbra",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepoMobile.gspec",
+                  "lineNumber" : 40
+                },
+                "name" : "above btn",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "tbra",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "btn",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "20px"
+                } ],
+                "highlight" : [ "tbra", "btn" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Below section",
+            "place" : {
+              "filePath" : "mojRepoMobile.gspec",
+              "lineNumber" : 42
+            },
+            "objects" : [ {
+              "name" : "turl",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepoMobile.gspec",
+                  "lineNumber" : 44
+                },
+                "name" : "below url",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "turl",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "url",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "10px"
+                } ],
+                "highlight" : [ "turl", "url" ]
+              } ]
+            }, {
+              "name" : "god",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepoMobile.gspec",
+                  "lineNumber" : 46
+                },
+                "name" : "below turl",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "god",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "turl",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "10px"
+                } ],
+                "highlight" : [ "god", "turl" ]
+              } ]
+            }, {
+              "name" : "btn",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepoMobile.gspec",
+                  "lineNumber" : 48
+                },
+                "name" : "below tbra",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "btn",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "tbra",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "20px"
+                } ],
+                "highlight" : [ "btn", "tbra" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Visible section",
+            "place" : {
+              "filePath" : "mojRepoMobile.gspec",
+              "lineNumber" : 49
+            },
+            "objects" : [ {
+              "name" : "forma",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepoMobile.gspec",
+                  "lineNumber" : 51
+                },
+                "name" : "visible",
+                "highlight" : [ "forma" ]
+              } ]
+            }, {
+              "name" : "btn",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepoMobile.gspec",
+                  "lineNumber" : 53
+                },
+                "name" : "visible",
+                "highlight" : [ "btn" ]
+              } ]
+            }, {
+              "name" : "tbra",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepoMobile.gspec",
+                  "lineNumber" : 55
+                },
+                "name" : "visible",
+                "highlight" : [ "tbra" ]
+              } ]
+            }, {
+              "name" : "tgod",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepoMobile.gspec",
+                  "lineNumber" : 57
+                },
+                "name" : "visible",
+                "highlight" : [ "tgod" ]
+              } ]
+            }, {
+              "name" : "turl",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepoMobile.gspec",
+                  "lineNumber" : 59
+                },
+                "name" : "visible",
+                "highlight" : [ "turl" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "bra" : {
+              "area" : [ 44, 208, 694, 28 ]
+            },
+            "tbra" : {
+              "area" : [ 44, 246, 698, 33 ]
+            },
+            "forma" : {
+              "area" : [ 37, 39, 712, 300 ]
+            },
+            "god" : {
+              "area" : [ 44, 127, 694, 28 ]
+            },
+            "btn" : {
+              "area" : [ 44, 299, 694, 33 ]
+            },
+            "turl" : {
+              "area" : [ 44, 84, 698, 33 ]
+            },
+            "url" : {
+              "area" : [ 44, 46, 694, 28 ]
+            },
+            "tgod" : {
+              "area" : [ 44, 165, 698, 33 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1636664012611,
+        "type" : "node"
+      } ],
+      "time" : 1636664007352,
+      "type" : "node"
+    } ]
+  }
+}
