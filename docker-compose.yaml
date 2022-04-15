@@ -1,0 +1,30 @@
+    version: '2'
+    
+    services:
+        mysql-db:
+            image: mysql:latest
+            container_name: baza_podataka
+            networks:
+                - arm-zadaca
+            environment:
+                - MYSQL_ROOT_PASSWORD=root
+                - MYSQL_DATABASE=wt2118667
+
+        nodejs-app:
+            image: ahadzic7/arm-zadaca:nodejs-app
+            container_name: arm-wt
+            ports:
+                - "3000:3000"
+            networks:
+                - arm-zadaca
+            depends_on:
+                - mysql-db
+            deploy:
+                restart_policy:
+                    condition: on-failure
+                    max_attempts: 5
+
+    networks:
+        arm-zadaca:
+            name: arm-zadaca
+            driver: bridge
